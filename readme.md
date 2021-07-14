@@ -1,4 +1,4 @@
-## scrapy-tianqi
+## scrapy-shuangseqiu
 
 ```
 使用 scrapy 抓取历史双色球开奖号码保存到MySQL
