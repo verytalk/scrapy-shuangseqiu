@@ -208,6 +208,16 @@ class JsonWithEncodingPipeline(object):
     yield item  #返回item,这时会自定解析item
 ```
 
+#### 使用代理
+
+```
+
+DOWNLOADER_MIDDLEWARES 中 打开 
+   #'webCrawler_scrapy.middlewares.ProxyMiddleware': 1,
+
+
+```
+
 #### 测试
 
 - 测试DBHelper
